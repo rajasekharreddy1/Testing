@@ -41,6 +41,8 @@ public class TestConsumer {
             
             System.out.println("sample consumer");
             System.out.println("sample consumer1");
+            System.out.println("sample consumer11 from example3");
+            
 
             Properties props = new Properties();
             props.put("bootstrap.servers", brokers);
