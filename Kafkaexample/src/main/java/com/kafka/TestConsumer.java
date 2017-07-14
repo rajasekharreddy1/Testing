@@ -38,6 +38,8 @@ public class TestConsumer {
 
             String brokers = System.getenv("CLOUDKARAFKA_BROKERS");
             String topicPrefix = System.getenv("CLOUDKARAFKA_TOPIC_PREFIX");
+            
+            System.out.println("sample consumer");
 
             Properties props = new Properties();
             props.put("bootstrap.servers", brokers);
