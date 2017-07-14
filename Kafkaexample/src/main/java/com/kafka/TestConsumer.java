@@ -41,7 +41,9 @@ public class TestConsumer {
             
             System.out.println("sample consumer");
             System.out.println("sample consumer1");
+            System.out.println("sample consumer2");
 
+            
             Properties props = new Properties();
             props.put("bootstrap.servers", brokers);
             props.put("group.id", "test");
