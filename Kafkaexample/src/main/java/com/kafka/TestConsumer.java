@@ -40,6 +40,7 @@ public class TestConsumer {
             String topicPrefix = System.getenv("CLOUDKARAFKA_TOPIC_PREFIX");
             
             System.out.println("sample consumer");
+            System.out.println("sample consumer1");
 
             Properties props = new Properties();
             props.put("bootstrap.servers", brokers);
